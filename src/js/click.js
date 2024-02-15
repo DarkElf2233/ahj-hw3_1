@@ -7,7 +7,7 @@ export default class Click {
   checkPoints() {
     if (parseInt(this.dead.textContent) === 10) {
       return 'win';
-    } else if (parseInt(this.lost.textContent) === 5) {
+    } if (parseInt(this.lost.textContent) === 5) {
       return 'lost';
     }
     return false;

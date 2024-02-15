@@ -1,5 +1,5 @@
-import Game from "./game";
-import Click from "./click";
+import Game from './game';
+import Click from './click';
 
 const holes = [...document.querySelectorAll('.hole')];
 const holeGame = document.querySelector('.hole-game');
@@ -15,7 +15,7 @@ for (const hole of holes) {
   hole.addEventListener('click', () => {
     clicked = true;
     click.checkClickedHole(hole);
-  })
+  });
 }
 
 setInterval(() => {
@@ -27,4 +27,4 @@ setInterval(() => {
     }
   }
   clicked = false;
-}, 1000)
+}, 1000);

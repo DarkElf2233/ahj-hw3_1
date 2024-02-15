@@ -14,6 +14,9 @@
         "no-restricted-syntax": "off",
         "no-constant-condition": "off",
         "radix": "off",
-        "import/no-extraneous-dependencies": "off"
+        "import/no-extraneous-dependencies": "off",
+        "no-loop-func": "off",
+        "no-alert": "off",
+        "class-methods-use-this": "off"
     }
 }
